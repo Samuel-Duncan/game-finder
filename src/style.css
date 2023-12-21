@@ -14,7 +14,6 @@
 
 body {
   background: linear-gradient(to right, var(--color-1), var(--color-4));
-  padding: 25px;
 }
 
 .input-container {
@@ -53,17 +52,19 @@ body {
   font-size: 1.1em;
   cursor: pointer;
   background-color: transparent;
-  color: var(--color-3);
+  color: var(--color-2);
   border: 2.5px solid var(--color-2);
-  transition: all 0.3s;
+  transition: all 0.2s linear;
 }
 
 .btn:hover {
+  color: var(--color-3);
   box-shadow: 6px 6px 0 -2px var(--color-2);
 }
 
 .btn:active {
   transition: all 0.2s;
-  transform: translateY(-5px);
+  color: var(--color-3);
+  transform: translate(5px, 5px);
   box-shadow: 0 2px 0 -2px var(--color-2);
 }
