@@ -79,14 +79,14 @@ h1 {
 }
 
 .btn:hover {
-  color: var(--color-3);
+  background-color: var(--color-2);
+  color: var(--color-1);
 }
 
 .btn:active {
   transition: all 0.2s;
   color: var(--color-2);
   transform: translateY(5px);
-  box-shadow: 0 2px 0 -2px var(--color-2);
 }
 
 @media (max-width: 768px) {
