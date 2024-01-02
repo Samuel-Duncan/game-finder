@@ -4,7 +4,7 @@
     "singleQuote": true
   },
   "version": "1.0.0",
-  "description": "This app makes use of 'x' API to search and display data for any videogame. Simply search for your desired game and learn everything you need to know about it!",
+  "description": "This app makes use of RAWG API to search and display data for any videogame. Simply search for your desired game and learn everything you need to know about it!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
