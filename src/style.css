@@ -39,6 +39,8 @@ h1 {
   position: relative;
   display: flex;
   gap: 10px;
+  width: 100%;
+  max-width: 450px;
 }
 
 .input {
@@ -79,18 +81,18 @@ h1 {
   color: var(--color-2);
   border: 0.5px solid var(--color-2);
   transition: all 0.2s linear;
+  touch-action: manipulation;
 }
 
 .btn:hover {
-  background-color: var(--color-2);
-  color: var(--color-1);
+  box-shadow: 4px 4px 0px var(--color-2);
 }
 
 .btn:active {
-  transition: all 0.2s;
   background-color: var(--color-2);
   color: var(--color-1);
-  transform: translateY(5px);
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px var(--color-2);
 }
 
 @media (max-width: 768px) {
